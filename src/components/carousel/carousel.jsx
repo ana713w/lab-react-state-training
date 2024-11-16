@@ -20,7 +20,7 @@ function Carousel({images}) {
 
 
     return (
-        <div className="d-flex flex-row gap-3">
+        <div className="d-inline -flex flex-row">
             <button className="btn btn-sm border btn-light" onClick={handleLeft}>Left</button>
             <img style={{width: 120, height:120}} src={image} />
             <button className="btn btn-sm border btn-light" onClick={handleRight}>Right</button>

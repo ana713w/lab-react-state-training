@@ -8,7 +8,7 @@ import LikeButton from "./components/like-button/like-button";
 
 function App() {
   return (
-    <div className="container py-5 d-flex flex-column gap-3">
+    <div className="container py-5 d-flex flex-column gap-3 align-items-center">
       <h1> LAB | React Training</h1>
 
       <LikeButton className="mb-2" />
