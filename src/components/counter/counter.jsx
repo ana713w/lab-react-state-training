@@ -12,7 +12,7 @@ function Counter () {
     }
 
     return (
-        <div className="d-flex gap-4 align-items-center border p-5 mt-4 mb-4 justify-content-center">
+        <div className="d-flex gap-4 align-items-center border p-5 justify-content-center">
             <button className="btn btn-sm btn-primary" onClick={handleCountDown} >-</button>
             <p className="fs-3 fw-bold mb-0">{count}</p>
             <button className="btn btn-sm btn-primary" onClick={handleCountUp}>+</button>

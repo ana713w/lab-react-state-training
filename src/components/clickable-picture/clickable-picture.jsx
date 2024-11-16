@@ -13,7 +13,7 @@ function ClickablePicture() {
     };
   
     return (
-      <img src={currentImage} onClick={handleClick} />
+      <img style={{width: 120, height:120}} src={currentImage} onClick={handleClick} />
     );
   }
   
